@@ -1,0 +1,57 @@
+  <html lang="pt-br">
+    <head>
+      <style>
+        body {
+          background-color: #212121;
+          color: white;
+          text-align: center;
+        }
+        a {color:#9df39f}
+        a:hover {color:#eb939a}
+        .image1{box-shadow:0 0 10px black;}
+        p {
+          color: black;
+          background-color: white;
+          width: 300px;
+          text-align: center;
+          display:inline-block;
+          }
+          .image-animation {
+            /*position:relative;*/
+          }
+          .image-animation img {
+            transform-origin: left 300  px ;
+              position: absolute;
+              top: 50px;
+              right: 300px;
+              width: 200px;
+              height: 200px;
+              /**margin:-60px 0 0 -60px;**/
+              animation:spin 20s linear infinite;
+          }
+          @keyframes spin {
+            33% {  transform:rotate(-30deg); }
+            67% {  transform:rotate(30deg); }
+            100% {  transform:rotate(0deg); }
+            }
+      </style>
+      <meta charset="utf-8">
+        <title></title>
+    </head>
+      <body>
+        <h1>Lucas Ramos Bueno</h1>
+        <h1>Idade 22</h1>
+            <img class="image1" Src="https://pm1.narvii.com/6543/8e3da1e566194920fc8fd26744c34955c6d76d86_128.jpg">
+            <br>
+            <p>Por que é uma área que eu tenho muito interesse!</p>
+            <br>
+            <a HREF="https://pt-br.facebook.com/" TARGET="_blank"> Acesse o meu facebook</a>
+            <br>
+            <a HREF="https://twitter.com/login?lang=pt" TARGET="_blank"> hackearam meu facebook (twitter)</a>
+            <br>
+            <a HREF="https://www.youtube.com/?hl=pt&gl=BR" TARGET="_blank"> Hackearam meu twitter se inscreve no canal (youtube)</a>
+            <div class="image-animation">
+              <img src="https://cdn6.aptoide.com/imgs/2/9/c/29c583e704249b91715d7f16932af0db_icon.png?w=256">
+            </div>
+      </body>
+  </html>
